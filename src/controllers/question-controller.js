@@ -5,6 +5,6 @@ module.exports = {
         const action = req.params.action
         const password = req.body.password
 
-        console.log(`room = ${roomId, questionId, action, password}`)
+        console.log(`room = ${roomId} ${questionId} ${action} ${password}`)
     }
 }
