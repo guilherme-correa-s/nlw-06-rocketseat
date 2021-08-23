@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "init-db": "node ./src/db/init.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/guilherme-correa-s/nlw-06-rocketseat#readme",
   "dependencies": {
-    "ejs": "^3.1.6"
+    "ejs": "^3.1.6",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "express": "^4.17.1",
